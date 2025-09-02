@@ -59,7 +59,7 @@ This guide will walk you through deploying your Pocket Notes application to prod
 
 3. **Set Environment Variables**
    ```env
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/pocket-notes
+   MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/pocket-notes
    JWT_SECRET=your-super-secure-production-jwt-secret-256-bits
    JWT_EXPIRES_IN=7d
    NODE_ENV=production
